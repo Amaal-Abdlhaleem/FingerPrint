@@ -22,7 +22,7 @@ After that, I found two folders Real and Altered. I worked on real dataset and c
 Perform some operations on an image (Left_index_finger) to extract some useful information from it.
 Like converting images to grayscale and appling some filters to remove noise and image enhancement such as gaussian filter and median filter.
 
-###### - Feature Detection:
+###### - Feature Detection and Extraction:
 Feature is an interesting part of an image, and are used as a starting point for many computer vision algorithms.
 So, we need feature detection befor extraction to know these interesting points which distinguish the image like:
 
@@ -32,3 +32,7 @@ So, we need feature detection befor extraction to know these interesting points 
               
           2- Corners:
               Regions in images which have maximum variation when moved in all regions around it.
+              
+After we extracted some features through edge detection and corner detection and description, 
+## Let's match between the real image and an altered image!
+Altered image was synthetically altered version with central rotation.

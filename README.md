@@ -32,7 +32,11 @@ So, we need feature detection befor extraction to know these interesting points 
               
           2- Corners:
               Regions in images which have maximum variation when moved in all regions around it.
+
+After appling ORB Corner Descriptor and SHI-Tomasi Corner Detection:
+
+![orb descriptor](https://user-images.githubusercontent.com/65326291/167345338-62e447f8-9c55-47a6-805c-15679b4e6c1e.png)      ![shi-tomasi corner detection](https://user-images.githubusercontent.com/65326291/167345347-6d01434f-8a8d-45f6-873b-5fb8c0063cf3.png)
               
-After we extracted some features through edge detection and corner detection and description, 
+Then we extracted some features through edge detection and corner detection and description, 
 ## Let's match between the real image and an altered image!
 Altered image was synthetically altered version with central rotation.

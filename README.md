@@ -3,7 +3,7 @@ A biometrics system uses computer technology to identify people based on physica
 
 Biometrics in general is a science that applied statistical and mathematical methods to data analysis problems in the biological sciences.
 
-##### In this project, I worked on fingerprint dataset and apply some operations to extract useful information.
+##### In this project, I worked on fingerprint dataset and apply some operations to do feature extraction and matching.
 
 #### Firstly, Here is the biometrics system architecture:
 
@@ -37,6 +37,7 @@ After appling ORB Corner Descriptor and SHI-Tomasi Corner Detection:
 
 ![orb descriptor](https://user-images.githubusercontent.com/65326291/167345338-62e447f8-9c55-47a6-805c-15679b4e6c1e.png)      ![shi-tomasi corner detection](https://user-images.githubusercontent.com/65326291/167345347-6d01434f-8a8d-45f6-873b-5fb8c0063cf3.png)
               
-Then we extracted some features through edge detection and corner detection and description, 
-## Let's match between the real image and an altered image!
+After extract some features through edge detection and corner detection and description, then match between the real image and an altered image!
 Altered image was synthetically altered version with central rotation.
+
+I applied a brute-force to match between these two images.
